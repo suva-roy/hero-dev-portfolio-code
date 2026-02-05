@@ -13,12 +13,45 @@ body{
     font-optical-sizing: auto;
 }
 
+.btn-primary{
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 6px;
+    padding: 20px 36px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
 header{
     background-color: #FFF8F3;
     padding-top: 50px;
 }
 nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 71%;
     max-width: 1140px;
     margin: 0px auto;
+}
+.logo h2{
+    font-size: 45px;
+    font-weight: 900;
+}
+.single-latter-color{
+    color: #FD6E0A;
+}
+
+nav .menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 51px;
+}
+
+nav .menu a{
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
 }
