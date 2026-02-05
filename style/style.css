@@ -1,0 +1,14 @@
+
+
+*{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: FFF8F3;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
