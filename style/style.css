@@ -12,3 +12,13 @@ body{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
 }
+
+header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+}
+nav{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+}
